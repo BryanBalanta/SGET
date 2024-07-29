@@ -1,0 +1,19 @@
+.table-responsive{
+    width: 100%;
+    display: block;
+    justify-content: center;
+}
+
+.table-responsive thead th{
+    background-color: #f8f9fa;
+}
+
+.btn{
+    width: 70px;
+}
+
+@media (max-width: 576px) {
+    .btn{
+        margin-bottom: 5px;
+    }
+}

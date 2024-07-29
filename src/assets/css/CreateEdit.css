@@ -1,0 +1,41 @@
+.containerCreateEdit{
+    padding: 20px;
+    padding-top: 15px;
+    border-radius: 5px;
+    width: 765px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.title-createUser, .title-editUser{
+    display: flex;
+    max-width: 350px;
+    margin-bottom: 20px;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.form-group{
+    width: 88%;
+}
+
+.containerCreateEdit label{
+    display: block;
+}
+
+.containerCreateEdit input{
+    width: 100%;
+    padding: 5px;
+}
+
+.containerCreateEdit select{
+    width: 48%;
+}
+
+.containerCreateEdit button{
+    width: 100%;
+    margin-top: 20px;
+}

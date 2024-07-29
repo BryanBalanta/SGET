@@ -1,0 +1,22 @@
+.nav-brand{
+    margin: 0px 3px;
+    font-size: x-large;
+    font-weight: bolder;
+    text-decoration: none;
+    color:aliceblue;
+}
+
+.navbar-nav{
+    margin: 0px 110px;
+    padding: 5px;
+}
+
+.nav-link{
+    margin: 0px 20px;
+    border-radius: 5px;
+}
+
+.nav-link:hover{
+    background-color: #404750;
+    border-radius: 5px;
+}

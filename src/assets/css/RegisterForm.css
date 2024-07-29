@@ -1,0 +1,45 @@
+.container-RegisterForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 340px;
+    height: 490px;
+    margin: 70px auto;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.3);
+}
+  
+.container-RegisterForm h2 {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+  
+.container-RegisterForm label {
+  display: block;
+}
+  
+.container-RegisterForm input {
+  width: 270px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+  
+.container-RegisterForm button {
+  color: #fff;
+  border: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.RegisterToLoginLink{
+  margin-left: 5px;
+  text-decoration: none;
+}

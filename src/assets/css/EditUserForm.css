@@ -1,0 +1,44 @@
+.editUser-container{
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 20px;
+    padding-top: 15px;
+    border-radius: 5px;
+    width: 850px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.title-EditUser{
+    display: flex;
+    max-width: 350px;
+    margin-bottom: 20px;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.form-group{
+    width: 48%;
+}
+
+.editUser-container label{
+    display: block;
+}
+
+.editUser-container input{
+    width: 100%;
+    padding: 5px;
+}
+
+.editUser-container select{
+    width: 48%;
+}
+
+.editUser-container button{
+    width: 100%;
+    margin-top: 20px;
+}
