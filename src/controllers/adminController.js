@@ -55,6 +55,8 @@ const deleteAdmin = async (req, res) => {
         });
         if(deleted){
             res.status(204).json({ message: 'Admin eliminado' });
+        } else {
+            res.status(404).json({ message: 'Admin no se encontro' });
         }
     } catch (error) {
         res.status(500).json({ error: error.message })

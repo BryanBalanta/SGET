@@ -12,46 +12,16 @@ import EditProfile from '../pages/EditProfile';
 import EditUser from '../assets/components/EditUser';
 
 const router = createBrowserRouter([
-    {
-        path:"/",
-        element:<Home/>
-    },
-    {
-        path:"/editProfile",
-        element:<EditProfile/>
-    },
-    {
-        path:"/admin",
-        element:<Admin/>
-    },
-    {
-        path:"/users",
-        element:<Users/>
-    },
-    {
-        path:"/editUser",
-        element:<EditUser/>
-    },
-    {
-        path:"/equipments",
-        element:<Equipments/>
-    },
-    {
-        path:"/maintenance",
-        element:<Maintenance/>
-    },
-    {
-        path:"/lowEquipments",
-        element:<LowEquipments/>
-    },
-    {
-        path:"/login",
-        element:<Login/>
-    },
-    {
-        path:"/register",
-        element:<Register/>
-    }
+    { path:"/", element:<Home/> },
+    { path:"/editProfile", element:<EditProfile/> },
+    { path:"/admin", element:<Admin/> },
+    { path:"/users", element:<Users/> },
+    { path:"/editUser", element:<EditUser/> },
+    { path:"/equipments", element:<Equipments/> },
+    { path:"/maintenance", element:<Maintenance/> },
+    { path:"/lowEquipments", element:<LowEquipments/> },
+    { path:"/login", element:<Login/> },
+    { path:"/register", element:<Register/> }
 ])
 
 const Routes = () => {
