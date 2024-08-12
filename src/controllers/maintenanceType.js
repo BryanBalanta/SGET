@@ -24,7 +24,7 @@ const getMaintenanceTypesById = async (req, res) => {
         if (maintenanceType){
             res.status(200).json(maintenanceType);
         } else {
-            res.status(404).json(maintenanceType);
+            res.status(404).json({ message: 'MaintenanceType no se encontro' });
         }
     } catch (error) {
         res.status(500).json({ error: error.message });
